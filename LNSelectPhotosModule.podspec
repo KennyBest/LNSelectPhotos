@@ -103,7 +103,7 @@ Pod::Spec.new do |s|
   #
 
   # s.resource  = "icon.png"
-    s.resources = ["Resource/*.png","View/LNAssetCollectionViewCell.xib"]
+    s.resources = ["LNPhotosSelectModule/**/*.png","LNPhotosSelectModule/**/LNAssetCollectionViewCell.xib"]
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
